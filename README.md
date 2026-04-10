@@ -10,7 +10,7 @@ El objetivo de este proyecto es realizar un EDA acerca de los datos de los prime
 
 ## Estructura del proyecto:
 * Extracción de la información (Web Scraping)
-* Limpieza de datos (Web Scrubbing)
+* Limpieza de datos (Data Wrangling)
 * Planteamiento de hipótesis.
 * Análisis y generación de gráficos.
 * Conclusiones.
