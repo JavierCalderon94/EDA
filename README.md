@@ -1,7 +1,12 @@
-# Exploratory Data Analysis
-## TOP 1000 canales de Twitch
+# Twitch Top 1000 — Exploratory Data Analysis
 
 El objetivo de este proyecto es realizar un EDA acerca de los datos de los primeros 1000 canales de Twitch según dentro de https://twitchtracker.com/. 
+
+## Estructura del proyecto:
+
+* `01_scraping.ipynb` — Extracción de la información (Web Scraping)
+* `02_data_wrangling.ipynb` — Limpieza de datos
+* `03_EDA.ipynb` — Análisis y generación de gráficos
 
 ## Estructura del proyecto:
 * Extracción de la información (Web Scraping)
@@ -15,10 +20,9 @@ Los datos para el análisis del proyecto han sido extraídos a través de web sc
 
 Disponiendo de esta información, se han podido extraer posteriormente los datos de los últimos 40 streams disponibles de cada uno de los canales, para lo cual ha sido necesario manejar tanto Beautiful Soup como Selenium.
 
-Podemos encontrar todo el código utilizado en "streamers.ipynb", "Streamers2.ipynb", "Streamers3.ipynb" y "streams.py"
 
 ### Limpieza de datos (Web Scrubbing).
-Dentro del segundo dataframe ha sido necesario realizar una limpieza ya que las fechas y valores numéricos habían sido extraidos como texto. Disponible en: "Limpieza de datos.ipynb".
+Dentro del segundo dataframe ha sido necesario realizar una limpieza ya que las fechas y valores numéricos habían sido extraidos como texto. 
 
 ### Planteamiento de hipótesis.
 Una vez revisado que se disponía de toda la información prevista correctamente se han planteado 2 hipótesis:
@@ -27,7 +31,7 @@ Una vez revisado que se disponía de toda la información prevista correctamente
 
 ### Análisis y generación de gráficos.
 
-Para poder extraer unas conclusiones, se han elaborado múltiples relaciones gráficamente de que simplificarán este proceso, entre las que podemos destacar los heatmaps por idioma o boxplots y violinplots relacionando el idioma con las diferentes variables numéricas. Todo el proceso está disponible en el fichero "EDA.ipynb".
+Para poder extraer unas conclusiones, se han elaborado múltiples relaciones gráficamente de que simplificarán este proceso, entre las que podemos destacar los heatmaps por idioma o boxplots y violinplots relacionando el idioma con las diferentes variables numéricas.
 
 ### Conclusiones.
 
